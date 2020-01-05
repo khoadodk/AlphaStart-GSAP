@@ -1,0 +1,327 @@
+/*GENERAL STYLES*/
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+body {
+    background-color: #f2f3f7;    
+}
+
+p {
+line-height:1.4em;
+font-weight: normal;
+}
+
+.container {
+width: 1140px;
+margin: 0 auto;
+}
+
+img {
+max-width:100%;
+height: auto;
+}
+
+/*NAV MENU*/
+
+header { 
+position: relative;    
+}
+
+nav {
+position: fixed;
+height:100vh;
+width: 100%;
+z-index: 200;
+visibility: hidden;
+display:flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #0074c4; 
+}
+
+.closeButton {
+color: #fff;
+font-size: 48px;
+margin: 0;
+position: absolute;
+top: 10px;
+right: 30px;
+cursor:pointer;
+}
+
+.burgerIcon {
+position: absolute;
+top: 30px;
+right: 36px;
+cursor: pointer;
+z-index: 20;
+}
+
+.burgerLine {
+width: 90px;
+height: 5px;
+background-color: #fff;
+margin-bottom: 10px;
+}
+
+.navMenu {
+flex-flow: column wrap;
+}
+
+.navMenu li {
+list-style: none;
+}
+
+.navMenu li a {
+color: #fff;
+text-decoration: none;
+font-size: 55px;
+display: inline-block;
+padding: 15px 50px;
+text-transform: uppercase;
+border-bottom:1px solid #142d5f;
+transition: 0.2s ease all;
+}
+
+.navMenu li:last-child a {
+border-bottom:none;    
+}
+
+.navMenu li:hover a {
+background-color: #ff6500;
+}
+
+/*HERO SECTION*/
+
+#hero {
+    background-size: cover;
+    background-image: url(../images/banner-bg.jpg);
+    height:85vh;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../images/bg-pattern.png);
+background-repeat: repeat;
+background: rgb(79,162,249); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(79,162,249,1) 0%, rgba(32,124,229,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(79,162,249,1) 0%,rgba(32,124,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(79,162,249,1) 0%,rgba(32,124,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4fa2f9', endColorstr='#207ce5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+}
+
+#hero h1 {
+    color: #fff;    
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    top: 30px;
+    opacity:0;
+}
+
+.logo {
+position: absolute;
+top: 20px;
+left: 20px;
+width: 260px;
+}
+
+#hero .learnMoreButton {
+background-color: #ff6500;
+padding: 17px 65px;
+font-size: 26px;
+text-decoration: none;
+color: #ffffff;
+font-weight: bold;
+display: inline-block;
+border: 3px solid #3c1c07;  
+position: relative;
+top: 45px;
+text-transform: uppercase;
+opacity:0;
+}
+
+.buttonSlide {
+background-color: #000;
+position: absolute;
+top: 0;
+bottom: 0;
+width: 0;
+}
+
+.ovalDivider {
+position: absolute;
+bottom: -47px;
+width: 100%;
+}
+
+/*FOUR COLUMN SECTION*/
+
+.fourColSection {
+padding-top: 80px;   
+padding-bottom: 100px;
+}
+
+.fourColContainer {
+display:flex;
+margin-top: 60px;
+}
+
+.fourColSection hgroup h2 {
+text-align: center;   
+font-size: 48px;
+color: #0068af;
+margin-bottom: 10px;
+}
+
+hgroup {
+text-align: center;    
+}
+
+.blueDividerLine {
+width: 90px;
+background-color: #ff6500;
+height: 3px;
+text-align: center;
+display: inline-block;
+}
+
+.fourColSection hgroup h3 {
+text-align: center;
+font-size: 18px;
+color: #323232;
+margin-top: 5px;
+}
+
+.fourColItem {
+flex:1;
+margin-right: 30px;
+padding-bottom: 15px;
+background-color: #fff;
+box-shadow: 0 0 20px rgba(0,0,0,0.06);        
+}
+
+.fourColItem:last-child {
+margin-right: 0;    
+}
+
+.fourColText {
+padding: 0px 10px 10px 10px;
+text-align: center;
+}
+
+.fourColItem h3 {
+font-size: 22px;
+color: #0068af;
+margin-bottom: 5px;
+margin-top: 15px; 
+}
+
+.fourColButton {
+background-color: #ff6500;    
+display: inline-block;
+padding: 10px 37px;
+text-decoration: none;
+color: white;
+margin-top: 0;
+}
+
+/*COG SECTION*/
+
+.cogSection {
+background-image: url('../images/cog-bg.jpg');  
+padding-top: 40px;
+padding-bottom: 60px;
+border-top:1px solid #ddd;
+}
+
+.cogSection hgroup {
+text-align: center;    
+margin-bottom: 50px;
+}
+
+.cogSection hgroup h2 {
+font-size: 48px;
+color: #0068af;
+margin-bottom: 5px;
+}
+
+.cogSection hgroup h3 {
+margin-top: 8px;    
+}
+
+.cogTwoCols {
+display:flex;    
+}
+
+.cogTextCol {
+flex:1;    
+}
+
+.cogImageCol {
+flex:1;    
+position: relative;
+padding-top: 40px;
+}
+
+.introText {
+color: #1d68af;
+font-size: 27px;    
+}
+
+.cogLeft {
+width: 220px;    
+position: absolute;
+left: 80px;
+top: 60px;
+}
+
+.cogRight {
+width: 220px;   
+position: absolute;
+    left: 264px;
+    top: 158px;
+}
+
+/*SERVICES */
+
+.services {
+display:flex; 
+flex-flow: row wrap;
+}
+
+.serviceBox {
+flex:1;  
+height: 400px;
+display:flex;
+justify-content: center;
+align-items: center;
+overflow:hidden;
+}
+
+.serviceBox:first-child {
+background-image: url(../images/engine.jpg);    
+}
+
+.serviceBox:nth-child(2) {
+background-image: url(../images/city.jpg);    
+}
+
+.serviceBox:nth-child(3) {
+background-image: url(../images/truck.jpg);    
+}
+
+.serviceBoxInner {
+background-color: rgba(255,255,255,0.8);
+padding: 25px;
+text-align: center;
+}
+
+.serviceBoxInner h2 {
+
+}
