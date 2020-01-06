@@ -20,7 +20,7 @@ p {
 }
 
 .container {
-  width: 1140px;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -254,7 +254,7 @@ hgroup {
 /*COG SECTION*/
 
 .cogSection {
-  background-image: url('../images/cog-bg.jpg');
+  /* background-image: url('../images/cog-bg.jpg'); */
   padding-top: 40px;
   padding-bottom: 60px;
   border-top: 1px solid #ddd;
