@@ -1,4 +1,4 @@
-# AlphaStart
+# AlphaStar
 
 This project is made in order to learn the animation JavaScript library GreenSock
 
@@ -6,4 +6,4 @@ This project is made in order to learn the animation JavaScript library GreenSoc
 
 You could download this project to run at your localhost
 or view it at:
-https://khoado-alphastart.netlify.com/
+https://khoado-alphastar.netlify.com/
